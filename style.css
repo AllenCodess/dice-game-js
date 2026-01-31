@@ -36,7 +36,7 @@ body {
 
 .dice-container {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -48,4 +48,5 @@ button {
   font-weight: bold;
   background-color: #2cff19;
   color: #0c2e05;
+  cursor: pointer;
 }
