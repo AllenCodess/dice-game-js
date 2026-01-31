@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(https://cdn.pixabay.com/photo/2025/12/08/11/26/poker-10001911_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-family: "Archivo", sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  width: 90%;
+  margin: 0 auto;
+}
