@@ -21,3 +21,31 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+.image-itself {
+  height: 200px;
+  margin: 1rem 0;
+}
+
+.dice-container {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #2cff19;
+  color: #0c2e05;
+}
